@@ -16,9 +16,12 @@ html, body
 }
 
 
-.first-div
+.head-info
 {
   display: flex;
+  justify-content: space-between;
+  margin: 30px 40px;
+
 }
 
 
@@ -31,11 +34,8 @@ hr {
 .logo img {
   width: 150px;
   height: 150px;
-
-  /* border: 2px solid black;*/
   border-radius: 50%;
-  padding-right: 50px;
-  padding-bottom: 20px;
+
 }
 h1 {
   color: #66bfbf;
