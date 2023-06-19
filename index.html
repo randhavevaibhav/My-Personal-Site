@@ -7,17 +7,18 @@
     <title>Vaibhav Personal site</title>
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <div class="head-info">
+    <div class="head-info" >
     
     
        
-            <div class="logo">
+            <div  class="logo" data-aos="flip-right" data-aos-duration="1" >
               <img src="./ninja-logo.jpg" alt="Ninja image" />
             </div>
          
-       <div class="basic-info">
+       <div class="basic-info"  data-aos="fade-up" data-aos-duration="1000">
         <h1>Vaibhav Randhave</h1>
         <p>
           <em
@@ -99,5 +100,12 @@
         >
       </li>
     </ul>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>
