@@ -16,15 +16,12 @@ html, body
 }
 
 
+.first-div
+{
+  display: flex;
+}
 
 
-/* 
-body {
-  background-color: #eaf6f6;
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 5%;
-} */
 hr {
   width: 100%;
   border-style: dotted none none;
