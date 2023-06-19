@@ -20,8 +20,24 @@ html, body
 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 30px 40px;
 
+}
+
+.eduction-info
+{
+  margin: 30px 40px;
+}
+
+.hr-div
+{
+  margin-top: 20px;
+}
+
+.skills
+{
+  margin: 30px 40px;
 }
 
 
