@@ -67,3 +67,22 @@ a {
 .emoji-icons {
   font-size: 2rem;
 }
+
+
+@media (max-width: 500px)
+{
+  .head-info
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .basic-info
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+  }
+    
+
+}
