@@ -15,6 +15,37 @@ html, body
   font-family: "Poppins", sans-serif;
 }
 
+.nav-bar-nresp
+{
+  margin-right: 40px;
+  margin-left: 40px;
+  
+  height: 10%;
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end;
+
+ 
+  
+  
+}
+.nav-bar-nresp ul{
+  display: flex;
+  gap: 40px;
+
+  
+}
+.nav-bar-nresp ul li
+{
+  list-style: none;
+
+}
+
+.hamburger{
+  display: none;
+}
+
 
 .head-info
 {
@@ -69,7 +100,8 @@ a {
 }
 
 
-@media (max-width: 500px)
+
+@media screen and (max-width: 600px)
 {
   .head-info
   {
@@ -83,6 +115,64 @@ a {
     justify-content: center;
    align-items: center;
   }
+  .nav-ul-resp
+  {
+    display: flex;
     
+  
+   
+  }
+
+  .nav-bar-nresp .nav-ul-nresp
+  {
+    display: none;
+    
+    
+  }
+
+ 
+
+
+  .hamburger
+{
+  cursor: pointer;
+  font-size: 30px;
+  display: block; 
+  
+
+}
+
+.navbarToggleStyleClass
+{
+ 
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.nav-ul-resp
+{
+justify-content: center;
+    flex-direction: column;
+    list-style: none;
+  
+}
+
+
+
+.nav-bar-resp
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 15px;
+    height: 10%;
+  
+    align-items: baseline;
+    
+    
+}
+
+
 
 }
